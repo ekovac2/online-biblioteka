@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.edina.spirala17933.KategorijeAkt">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+       <!--
+
+
+
+
+
+        -->
+        <!---->
+
+
+        <Button
+            android:id="@+id/dDodajKategoriju"
+            android:layout_width="195dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/dPretraga"
+            android:layout_toStartOf="@+id/dPretraga"
+            android:text="@string/dDodajKategoriju"
+            android:textSize="17dp" />
+
+
+        <Button
+            android:id="@+id/dPretraga"
+            android:layout_width="188dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/tekstPretraga"
+            android:layout_toEndOf="@+id/tekstPretraga"
+            android:layout_toRightOf="@+id/tekstPretraga"
+            android:text="@string/dPretraga"
+            android:textSize="17dp" />
+
+
+        <EditText
+            android:id="@+id/tekstPretraga"
+            android:layout_width="195dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/dAutori"
+            android:layout_marginTop="15dp"
+            android:text=""
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/dKategorije"
+            android:layout_width="165dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/dAutori"
+            android:text="@string/dKategorije" />
+
+        <Button
+            android:id="@+id/dAutori"
+            android:layout_width="196dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/dAutori"
+            tools:layout_editor_absoluteX="81dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <Button
+            android:id="@+id/dDodajKnjigu"
+            android:layout_width="178dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/dKategorije"
+            android:layout_marginTop="63dp"
+            android:layout_toEndOf="@+id/dAutori"
+            android:layout_toRightOf="@+id/dAutori"
+            android:text="@string/dDodajKnjigu"
+            android:textSize="17dp" />
+
+        <ListView
+            android:id="@+id/listaKategorija"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/dDodajOnline​"
+            android:text="@string/listaKategorija"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/dDodajOnline​"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dDodajKnjigu"
+            android:layout_centerHorizontal="true"
+            android:text="@string/dDodajOnline"
+            android:textSize="17dp" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

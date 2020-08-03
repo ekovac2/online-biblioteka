@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="576dp"
+        android:layout_height="291dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="12dp">
+
+        <ImageView
+            android:id="@+id/naslovnaStr"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="21dp"
+            android:layout_marginStart="21dp" />
+
+        <Button
+            android:id="@+id/dNadjiSliku"
+            android:layout_width="125dp"
+            android:layout_height="60dp"
+            android:layout_alignEnd="@+id/naslovnaStr"
+            android:layout_alignRight="@+id/naslovnaStr"
+            android:layout_below="@+id/naslovnaStr"
+            android:layout_marginEnd="12dp"
+            android:layout_marginRight="12dp"
+            android:text="@string/dNadjiSliku" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/nazivKnjige"
+            android:layout_alignBottom="@+id/nazivKnjige"
+            android:layout_marginLeft="35dp"
+            android:layout_marginStart="35dp"
+            android:layout_toEndOf="@+id/naslovnaStr"
+            android:layout_toRightOf="@+id/naslovnaStr"
+            android:text="@string/textView" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_alignStart="@+id/textView2"
+            android:layout_below="@+id/textView2"
+            android:layout_marginTop="18dp"
+            android:text="@string/textView3" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_alignLeft="@+id/textView"
+            android:layout_alignStart="@+id/textView"
+            android:layout_below="@+id/textView"
+            android:layout_marginTop="28dp"
+            android:text="@string/textView2" />
+
+        <EditText
+            android:id="@+id/imeAutora"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView2"
+            android:layout_alignBottom="@+id/textView2"
+            android:layout_toEndOf="@+id/textView2"
+            android:layout_toRightOf="@+id/textView2" />
+
+
+        <EditText
+            android:id="@+id/nazivKnjige"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/textView2"
+            android:layout_toRightOf="@+id/textView2" />
+
+
+        <Spinner
+            android:id="@+id/sKategorijaKnjige"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/imeAutora"
+            android:layout_alignStart="@+id/imeAutora"
+            android:layout_below="@+id/imeAutora"
+            android:layout_marginTop="16dp" />
+
+        <Button
+            android:id="@+id/dUpisiKnjigu"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_above="@+id/sKategorijaKnjige"
+            android:layout_toEndOf="@+id/imeAutora"
+            android:layout_toRightOf="@+id/imeAutora"
+            android:text="@string/dUpisiKnjigu" />
+
+        <Button
+            android:id="@+id/dPonisti"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/dUpisiKnjigu"
+            android:layout_alignParentBottom="true"
+            android:layout_alignRight="@+id/dUpisiKnjigu"
+            android:layout_marginBottom="27dp"
+            android:text="@string/dPonisti" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

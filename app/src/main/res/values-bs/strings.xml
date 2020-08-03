@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Spirala17933</string>
+    <string name="dPretraga">Pretraga</string>
+    <string name="dDodajKategoriju">Dodaj kategoriju</string>
+    <string name="dDodajKnjigu">Dodaj knjigu</string>
+    <string name="listaKategorija">Lista kategorija</string>
+    <string name="dUpisiKnjigu">Upiši knjigu</string>
+    <string name="dNadjiSliku">Nađi sliku</string>
+    <string name="dPonisti">Poništi</string>
+    <string name="dAutori">Autori</string>
+    <string name="dKategorije">Kategorije</string>
+    <string name="tekstPretraga">Pretražite kategorije</string>
+    <string name="dPovratak">Povratak</string>
+    <string name="textView4">Broj knjiga: </string>
+    <string name="textView">Naziv knjige:</string>
+    <string name="textView3">Kategorija:</string>
+    <string name="textView2">Ime autora:</string>
+    <string name="Podaci">Ispunite sva polja!</string>
+    <string name="dDodajOnline">Dodaj knjigu online</string>
+    <string name="dRun">Pretraga</string>
+    <string name="dAdd">Dodaj knjigu</string>
+    <string name="Uspjesno">Dodana knjiga</string>
+    <string name="textView5">Rezultat</string>
+    <string name="textView6">Kategorije</string>
+    <string name="textView10">Datum objavljivanja: </string>
+    <string name="textView11">Broj stranica:</string>
+    <string name="textView12">Opis:</string>
+    <string name="dPreporuci">Preporuči knjigu</string>
+    <string name="dPosalji">Pošalji</string>
+    <string name="postoji">Knjiga već postoji!</string>
+
+</resources>
